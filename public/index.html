@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>uCoz-test</h1>
+			<div class="row">
+				<div class="col-xs-12 col-sm-5">
+					<h3>Add new book</h3>
+					<!-- автор, год издания, название книги, кол-во страниц -->
+					<form>
+						<fieldset class="form-group">
+							<label>Author</label>
+							<input type="text" class="form-control" placeholder="Enter author">
+							<small class="text-muted">e.g.: David Flanagan</small>
+						</fieldset>
+						<!-- TODO: check date -->
+						<fieldset class="form-group">
+							<label>Release year</label>
+							<input type="number" class="form-control" placeholder="Enter year of release">
+							<small class="text-muted">e.g.: 2012</small>
+						</fieldset>
+						<fieldset class="form-group">
+							<label>Title</label>
+							<input type="text" class="form-control" placeholder="Enter book title">
+							<small class="text-muted">e.g.: JavaScript Pocket Reference</small>
+						</fieldset>
+						<fieldset class="form-group">
+							<label>Number of pages</label>
+							<input type="number" class="form-control" placeholder="Enter number of pages">
+							<small class="text-muted">e.g.: 280</small>
+						</fieldset>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+				<div class="col-xs-12 col-sm-7">
+					<h3>List of books</h3>
+					<!-- Автор и название книги. У каждого элемента в списке книг должны быть кнопки edit и remove -->
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<span class="label label-default label-pill pull-xs-right">Edit</span>
+							Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+						</a>
+						<a href="#" class="list-group-item">
+							<span class="label label-default label-pill pull-xs-right">Remove</span>
+							<span class="label label-default label-pill pull-xs-right">Edit</span>
+							<h4 class="list-group-item-heading">List group item heading</h4>
+							<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">List group item heading</h4>
+							<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+	</body>
+</html>

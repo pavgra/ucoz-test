@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-browserify": "*"
+  },
+  "dependencies": {
+    "stringify": "^5.1.0"
+  }
+}

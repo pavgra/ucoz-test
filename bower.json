@@ -1,0 +1,14 @@
+{
+  "name": "ucoz",
+  "homepage": "https://github.com/pavgra/ucoz-test",
+  "authors": [
+    "Pavel Grafkin <pavgra@gmail.com>"
+  ],
+  "description": "test assignment",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}
